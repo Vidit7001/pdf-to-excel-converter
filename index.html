@@ -28,6 +28,7 @@
       try {
         const response = await fetch('https://pdf-to-excel-converter.onrender.com/convert', {
   method: 'POST',
+            mode: 'no-cors',
   body: formData,
 });
         
